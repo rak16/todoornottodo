@@ -7,6 +7,8 @@ var path = require('path');
 var bodyParser = require('body-parser');
 var mysql = require('mysql');
 
+
+//TODO Fetch db creds from json file
 var conn = mysql.createConnection({
 	host : "localhost",
     user : "root",
